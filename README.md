@@ -82,8 +82,8 @@ Métrica escolhida: MAE (é mais interpretável para valores monetários).
 
 3. Carregar o modelo salvo
 
-    with open("modelo_precos.pkl", "rb") as arquivo:
-        modelo = pickle.load(arquivo)
+            with open("modelo_precos.pkl", "rb") as arquivo:
+                modelo = pickle.load(arquivo)
    
 *O arquivo do modelo está disponível para download no [Google Drive](https://drive.google.com/file/d/15YxlV-UuF3RbX5EBtazB8gIkCSqO3mpy/view?usp=sharing).*
 
@@ -91,9 +91,9 @@ Métrica escolhida: MAE (é mais interpretável para valores monetários).
 
 4. Exemplo de previsão para um novo imóvel
 
-    novo_imovel = pd.DataFrame({...})  # Preencha com os dados do imóvel
-    previsao = modelo.predict(novo_imovel)
-    print("Preço previsto:", np.expm1(previsao))  # Reverter log-transform
+            novo_imovel = pd.DataFrame({...})  # Preencha com os dados do imóvel
+            previsao = modelo.predict(novo_imovel)
+            print("Preço previsto:", np.expm1(previsao))  # Reverter log-transform
 
 ---
 
