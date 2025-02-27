@@ -26,6 +26,8 @@ Este projeto tem como objetivo desenvolver um modelo preditivo para estimar os p
 
 Salvar o modelo em formato .pkl para uso futuro.
 
+---
+
 ### 📚 Dados Utilizados
 
 O dataset contém informações sobre aluguéis temporários, incluindo:
@@ -42,6 +44,8 @@ Disponibilidade: disponibilidade_365
 
 Número de reviews: numero_de_reviews, reviews_por_mes
 
+---
+
 ### 🎯 Modelos Utilizados
 
 Foram testados diferentes modelos de Machine Learning:
@@ -49,6 +53,8 @@ Foram testados diferentes modelos de Machine Learning:
 Regressão Linear - Simples e interpretável, mas não captura relações não lineares.
 
 Random Forest Regressor - Captura relações não lineares entre as variáveis. É robusto contra outliers e overfitting, apresenta um bom equilíbrio entre performance e interpretabilidade.
+
+---
 
 ### 📊 Métricas de Avaliação
 
@@ -59,6 +65,8 @@ RMSE (Root Mean Squared Error): Penaliza erros maiores, ajudando a capturar gran
 R² (Coeficiente de Determinação): Mede o quanto o modelo explica a variação do preço.
 
 Métrica escolhida: MAE (é mais interpretável para valores monetários).
+
+---
 
 ### 💡 Como Executar o Projeto
 
@@ -76,12 +84,15 @@ Métrica escolhida: MAE (é mais interpretável para valores monetários).
 
     with open("modelo_precos.pkl", "rb") as arquivo:
         modelo = pickle.load(arquivo)
+O arquivo do modelo está disponível para download no [Google Drive]([https://drive.google.com/file/d/15YxlV-UuF3RbX5EBtazB8gIkCSqO3mpy/view?usp=sharing).
 
-4. Exemplo de previsão para um novo imóvel
+5. Exemplo de previsão para um novo imóvel
 
     novo_imovel = pd.DataFrame({...})  # Preencha com os dados do imóvel
     previsao = modelo.predict(novo_imovel)
     print("Preço previsto:", np.expm1(previsao))  # Reverter log-transform
+
+---
 
 ### 🌟 Conclusão
 
@@ -92,6 +103,8 @@ A localização e o tipo de acomodação são os fatores mais importantes.
 O projeto pode ser aprimorado com mais dados externos (eventos, sazonalidade, etc.).
 
 💰 Pronto para fazer previsões e otimizar investimentos em aluguéis temporários! 🚀
+
+---
 
 ### 🤝 Contribuições
 
