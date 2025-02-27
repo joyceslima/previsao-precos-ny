@@ -105,8 +105,6 @@ A localização e o tipo de acomodação são os fatores mais importantes.
 
 O projeto pode ser aprimorado com mais dados externos (eventos, sazonalidade, etc.).
 
-💰 Pronto para fazer previsões e otimizar investimentos em aluguéis temporários! 🚀
-
 ---
 
 ### 🤝 Contribuições
