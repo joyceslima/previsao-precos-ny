@@ -72,13 +72,13 @@ Métrica escolhida: MAE (é mais interpretável para valores monetários).
 
 1. Instalar Dependências
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 
 2. Executar o Modelo
 
-    import pickle
-    import pandas as pd
-    import numpy as np
+        import pickle
+        import pandas as pd
+        import numpy as np
 
 3. Carregar o modelo salvo
 
