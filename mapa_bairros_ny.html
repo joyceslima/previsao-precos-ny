@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2cee0c97eefb35566376b5fef9ecc18f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2cee0c97eefb35566376b5fef9ecc18f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2cee0c97eefb35566376b5fef9ecc18f = L.map(
+                "map_2cee0c97eefb35566376b5fef9ecc18f",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7526e110615029e051a6772f43fcf726 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7526e110615029e051a6772f43fcf726.addTo(map_2cee0c97eefb35566376b5fef9ecc18f);
+        
+    
+            var circle_marker_06869173f4312e1278c5f4e731b03961 = L.circleMarker(
+                [40.84830617579909, -73.88392761415525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2cee0c97eefb35566376b5fef9ecc18f);
+        
+    
+        var popup_bf0a12fc9e87eb58eb4bf6161e0f5167 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c35ebc88579ce0b6125303bf882f9cdf = $(`<div id="html_c35ebc88579ce0b6125303bf882f9cdf" style="width: 100.0%; height: 100.0%;">Bairro: Bronx</div>`)[0];
+                popup_bf0a12fc9e87eb58eb4bf6161e0f5167.setContent(html_c35ebc88579ce0b6125303bf882f9cdf);
+            
+        
+
+        circle_marker_06869173f4312e1278c5f4e731b03961.bindPopup(popup_bf0a12fc9e87eb58eb4bf6161e0f5167)
+        ;
+
+        
+    
+    
+            var circle_marker_99d211bd35e9595725b440c66f2109ea = L.circleMarker(
+                [40.684797510640884, -73.95102162106286],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2cee0c97eefb35566376b5fef9ecc18f);
+        
+    
+        var popup_d269056c3ffd40a0a6253e555d597192 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35cbd55a9f88e29e49102e9a1fda40b2 = $(`<div id="html_35cbd55a9f88e29e49102e9a1fda40b2" style="width: 100.0%; height: 100.0%;">Bairro: Brooklyn</div>`)[0];
+                popup_d269056c3ffd40a0a6253e555d597192.setContent(html_35cbd55a9f88e29e49102e9a1fda40b2);
+            
+        
+
+        circle_marker_99d211bd35e9595725b440c66f2109ea.bindPopup(popup_d269056c3ffd40a0a6253e555d597192)
+        ;
+
+        
+    
+    
+            var circle_marker_b907943392aeeecd0c27ad69e9105ba9 = L.circleMarker(
+                [40.765972792809045, -73.97390158910534],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2cee0c97eefb35566376b5fef9ecc18f);
+        
+    
+        var popup_9dc554ede15b494c8a3b097f196aebe0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f128b79ab6dc966d0cf3030f6e1e873 = $(`<div id="html_8f128b79ab6dc966d0cf3030f6e1e873" style="width: 100.0%; height: 100.0%;">Bairro: Manhattan</div>`)[0];
+                popup_9dc554ede15b494c8a3b097f196aebe0.setContent(html_8f128b79ab6dc966d0cf3030f6e1e873);
+            
+        
+
+        circle_marker_b907943392aeeecd0c27ad69e9105ba9.bindPopup(popup_9dc554ede15b494c8a3b097f196aebe0)
+        ;
+
+        
+    
+    
+            var circle_marker_1c35df8c2749d7a3a65bdae2cdbb0093 = L.circleMarker(
+                [40.73138947966768, -73.87118512898994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2cee0c97eefb35566376b5fef9ecc18f);
+        
+    
+        var popup_deca4fb7bd7ae8170692864d5e82bd29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c6ef254843e26bad0526a49298cfd1a = $(`<div id="html_0c6ef254843e26bad0526a49298cfd1a" style="width: 100.0%; height: 100.0%;">Bairro: Queens</div>`)[0];
+                popup_deca4fb7bd7ae8170692864d5e82bd29.setContent(html_0c6ef254843e26bad0526a49298cfd1a);
+            
+        
+
+        circle_marker_1c35df8c2749d7a3a65bdae2cdbb0093.bindPopup(popup_deca4fb7bd7ae8170692864d5e82bd29)
+        ;
+
+        
+    
+    
+            var circle_marker_84d6bc3d6c12fd2a2c51bc76643c0e97 = L.circleMarker(
+                [40.611206878980894, -74.10483764331211],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_2cee0c97eefb35566376b5fef9ecc18f);
+        
+    
+        var popup_74031b0d90ab2cd27b337ef438a4f96d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59c59485596a665c19c667f4bdb08577 = $(`<div id="html_59c59485596a665c19c667f4bdb08577" style="width: 100.0%; height: 100.0%;">Bairro: Staten Island</div>`)[0];
+                popup_74031b0d90ab2cd27b337ef438a4f96d.setContent(html_59c59485596a665c19c667f4bdb08577);
+            
+        
+
+        circle_marker_84d6bc3d6c12fd2a2c51bc76643c0e97.bindPopup(popup_74031b0d90ab2cd27b337ef438a4f96d)
+        ;
+
+        
+    
+</script>
+</html>
