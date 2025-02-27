@@ -87,6 +87,8 @@ Métrica escolhida: MAE (é mais interpretável para valores monetários).
    
 *O arquivo do modelo está disponível para download no [Google Drive](https://drive.google.com/file/d/15YxlV-UuF3RbX5EBtazB8gIkCSqO3mpy/view?usp=sharing).*
 
+**Note que o arquivo pode ser grande (mais de 100MB), então pode demorar alguns minutos para o download ser concluído.**
+
 5. Exemplo de previsão para um novo imóvel
 
     novo_imovel = pd.DataFrame({...})  # Preencha com os dados do imóvel
