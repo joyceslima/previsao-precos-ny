@@ -1,6 +1,6 @@
 # 🏠 Previsão de Preços de Aluguéis Temporários em Nova York
 
-Este projeto tem como objetivo desenvolver um modelo preditivo para estimar os preços de aluguéis temporários em Nova York. Para isso, realizamos uma análise exploratória dos dados (EDA), identificamos padrões e utilizamos técnicas de machine learning para criar um modelo robusto de previsão.
+Este projeto tem como objetivo desenvolver um modelo preditivo para estimar os preços de aluguéis temporários em Nova York. Para isso, realizei uma análise exploratória dos dados (EDA), identifiquei padrões e utilizei técnicas de machine learning para criar um modelo robusto de previsão.
 
 ### ✨ Objetivos do Projeto
 
