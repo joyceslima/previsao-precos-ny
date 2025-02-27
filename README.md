@@ -84,7 +84,8 @@ Métrica escolhida: MAE (é mais interpretável para valores monetários).
 
     with open("modelo_precos.pkl", "rb") as arquivo:
         modelo = pickle.load(arquivo)
-O arquivo do modelo está disponível para download no [Google Drive](https://drive.google.com/file/d/15YxlV-UuF3RbX5EBtazB8gIkCSqO3mpy/view?usp=sharing).
+   
+*O arquivo do modelo está disponível para download no [Google Drive](https://drive.google.com/file/d/15YxlV-UuF3RbX5EBtazB8gIkCSqO3mpy/view?usp=sharing).*
 
 5. Exemplo de previsão para um novo imóvel
 
